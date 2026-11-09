@@ -2,6 +2,8 @@
 
 Usad is a multi-page task manager built with React. It loads 200 sample tasks from a public API, shows which are open or done, and lets you open any task to see its details and who it's assigned to.
 
+**Live demo:** https://mini-project-1-react-task-manager.vercel.app
+
 ![Usad logo](src/assets/usad-logo.png)
 
 ## Features
@@ -93,4 +95,6 @@ React, React Router, TanStack Query, Tailwind CSS, Vite, ESLint.
 
 ## Live demo (stretch)
 
-Not deployed yet.
+Deployed on Vercel: **https://mini-project-1-react-task-manager.vercel.app**
+
+`vercel.json` rewrites every path to `index.html`, so direct links and refreshes on routes like `/stats` or `/tasks/2` work.
